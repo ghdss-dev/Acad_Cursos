@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.title{
+	position: relative;
+	top: 40px;
+    font-family: "Bebas Neue";
+    font-size: 52px;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    color: var(--bg-secondary);
+}
+
+.img-container{
+    position: relative;
+    right: 10rem;
+	top: 430px;
+
+    img{
+        position: absolute;
+        max-height: 20rem;
+        margin: auto;
+    }
+
+    .square{
+        position: absolute;
+        border-style: solid;
+        border-color: var(--bg-secondary);
+    }
+}
+
+.paragraph{
+    font-family: "Poppins";
+	position: relative;
+	font-size: 20px;
+	top: 90px;
+}
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+
+    .content{
+        margin-top: 1rem;
+        .title{
+            margin-left: 2rem;
+        }
+        .img-container{
+            height: 15rem;
+
+            img{
+                max-width: 20rem;
+                top: 2rem;
+            }
+
+            .square{
+                height: 10rem;
+                width: 10rem;
+                margin-left: -2rem;
+                border-width: .7rem;
+            }
+        }
+        .paragraph{
+            margin-left: 1rem;
+        }
+    }
+}
+
+/* Large screens */
+@media only screen and (min-width: 600px) {
+    .content{
+        margin: auto 16rem auto;
+        padding: 1rem;
+
+        .title{
+            margin-left: 10rem;
+        }
+        .img-container{
+            height: 25rem;
+
+            img{
+                top: 3rem;
+                left: 5rem;
+            }
+
+            .square{
+                height: 20rem;
+                width: 20rem;
+                margin-left: 2rem;
+                border-width: 1rem;
+            }
+        }
+        p{
+            margin-left: 10rem;
+        }    
+    }
+}
