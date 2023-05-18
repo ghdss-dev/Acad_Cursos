@@ -4,7 +4,7 @@
 	--text-primary: #4B0082; 
 	--text-secondary: #ece; 
 	--bg-primary: #20B2AA; 
-	--bg-secondary: #141414; 
+	--bg-secondary: #ff0000; 
 	--transition-speed: 960ms;
 }
 
@@ -51,8 +51,8 @@
 
 .nav-icon{
 
-	height: 4rem; 
-	width: 2.3rem; 
+	height: 6rem; 
+	width: 1.5rem; 
 	margin: 0 1.5rem;
 	background-color: var(--bg-ece);
 }

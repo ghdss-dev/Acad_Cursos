@@ -1,5 +1,14 @@
 
-
+				<div className="input-container">
+					<label>Data de Aula </label>
+					<input type={"date"} className={"form-control"} 
+					placeholder={"Data de Aula"} 
+					name="data_aula" 
+					value={data_aula} 
+					onChange={(e) => OnInputChange(e)} 
+					required />
+					{/* {renderErrorMessage("uname")} */}
+				</div>
 
 ///////////
 import React, { useEffect, useState } from 'react';

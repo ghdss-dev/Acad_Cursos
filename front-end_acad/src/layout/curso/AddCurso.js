@@ -196,17 +196,6 @@ export default function AddCurso() {
 
 						<div className="input-box">
 
-							<span class="details">Sexta-Feira</span>
-							<input type="number" 
-							placeholder="Sexta-Feira" 
-							name="sex" 
-							value={sex} 
-							onChange={(e) => OnInputChange(e)} 
-							required></input>
-						</div>
-
-						<div className="input-box">
-
 							<span class="details">Sabádo</span>
 							<input type="number" 
 							placeholder="Sabádo" 
