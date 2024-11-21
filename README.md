@@ -96,6 +96,7 @@ Entidade Turma - localhost:8050/turma
   $ no arquivo Acad.yaml
   
   $ Vai mostrar as todas as informações da API do Sistema, pelo banco de dados no programa Insomnia
+
 ```
 
 ## Baixar e visualizar o Projeto 
